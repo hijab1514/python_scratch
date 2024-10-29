@@ -4,12 +4,14 @@
 fruits = ["apple", "banana", "cherry", "date"]
 
 # Accessing elements
-print("First fruit:", fruits[0])   # Accessing the first element
+`print("First fruit:", fruits[0])`   # Accessing the first element
 print("Last fruit:", fruits[-1])   # Accessing the last element
 
 # Modifying elements
+```
 fruits[1] = "blueberry"
 print("Modified List:", fruits)
+```
 
 # Adding elements
 fruits.append("elderberry")
