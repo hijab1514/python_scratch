@@ -98,7 +98,7 @@ Python\_Learning\_Repo/
 1. **Clone the repo** to your local machine:  
 
 ```bash
-git clone https://github.com/your-username/Python_Learning_Repo.git
+git clone https://github.com/hijab1514/python_scratch.git
 ````
 
 2. Navigate to any topic folder and open the `.py` files in your favorite IDE or code editor.
