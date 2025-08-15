@@ -123,7 +123,7 @@ git clone https://github.com/hijab1514/python_scratch.git
 Created by **Fatima Hijab**
 
 * Email: \[[fatimahijab759@gmail.com](fatimahijab769@gmail.com)]
-* LinkedIn: \[https://www.linkedin.com/feed/]
+* LinkedIn: \[https://www.linkedin.com/in/hijab-fatima-8b758426a]
 
 ---
 
