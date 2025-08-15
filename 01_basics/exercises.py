@@ -119,3 +119,66 @@ print("\nExercise 10:")
 # name = input("Enter your name: ")
 # age = int(input("Enter your age: "))
 # print(f"Hello {name}, you will be {age+1} years old next year")
+
+"""
+Practice Exercises - Data Types and Variables
+---------------------------------------------
+Solve these exercises to practice Python basics.
+"""
+
+# ---------------------------
+# Exercise 1: Variables and Assignment
+# ---------------------------
+# 1. Create 3 variables: one integer, one float, one string.
+# 2. Print all variables in a single line.
+int_var = 10
+float_var = 3.14
+str_var = "Python"
+print(int_var, float_var, str_var)
+
+# 3. Assign the same value (100) to 2 variables in a single line and print.
+x = y = 100
+print("x =", x, "y =", y)
+
+# 4. Swap the values of two variables without using a third variable.
+a, b = 5, 10
+a, b = b, a
+print("After swapping: a =", a, "b =", b)
+
+# ---------------------------
+# Exercise 2: Type Conversion
+# ---------------------------
+# 1. Convert float 12.75 to int and print.
+f_num = 12.75
+i_num = int(f_num)
+print("Float to int:", i_num)
+
+# 2. Convert integer 50 to float and string.
+num = 50
+print("Int to float:", float(num))
+print("Int to string:", str(num))
+
+# 3. Check boolean value of empty string and non-empty string.
+empty_str = ""
+non_empty_str = "Hello"
+print("Empty string to bool:", bool(empty_str))
+print("Non-empty string to bool:", bool(non_empty_str))
+
+# 4. Perform an operation between int and string (will cause error),
+# then convert string to int and try again.
+num1 = 5
+num2 = "10"
+# print(num1 + num2)  # ❌ Uncomment to see TypeError
+print("After converting string to int:", num1 + int(num2))
+
+# ---------------------------
+# Exercise 3: Extra Practice
+# ---------------------------
+# 1. Create variables with valid and invalid names and observe.
+# 2. Try assigning None to a variable and print its type.
+# 3. Experiment with dynamic typing by changing a variable type.
+var = 100
+print("Original type:", type(var))
+var = "Now I'm a string"
+print("After change:", type(var))
+
