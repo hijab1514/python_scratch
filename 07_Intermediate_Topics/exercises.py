@@ -61,3 +61,69 @@ def even_gen(limit):
 
 for val in even_gen(10):
     print("Even value:", val)
+
+"""
+Practice Exercises - Intermediate Data Structures
+-------------------------------------------------
+Solve these exercises to practice stacks, queues, and linked lists.
+"""
+
+# ---------------------------
+# Exercise 1: Stack
+# ---------------------------
+stack = []
+stack.append(5)
+stack.append(10)
+stack.append(15)
+print("Stack:", stack)
+stack.pop()
+print("After pop:", stack)
+print("Top element:", stack[-1] if stack else None)
+
+# ---------------------------
+# Exercise 2: Queue
+# ---------------------------
+from collections import deque
+queue = deque()
+queue.append(5)
+queue.append(10)
+queue.append(15)
+print("Queue:", queue)
+queue.popleft()
+print("After dequeue:", queue)
+print("Front element:", queue[0] if queue else None)
+
+# ---------------------------
+# Exercise 3: Linked List
+# ---------------------------
+class Node:
+    def __init__(self, data):
+        self.data = data
+        self.next = None
+
+class LinkedList:
+    def __init__(self):
+        self.head = None
+
+    def append(self, data):
+        new_node = Node(data)
+        if not self.head:
+            self.head = new_node
+            return
+        last = self.head
+        while last.next:
+            last = last.next
+        last.next = new_node
+
+    def display(self):
+        current = self.head
+        while current:
+            print(current.data, end=" -> ")
+            current = current.next
+        print("None")
+
+ll = LinkedList()
+for val in [5, 10, 15, 20]:
+    ll.append(val)
+ll.display()
+
