@@ -122,8 +122,8 @@ git clone https://github.com/hijab1514/python_scratch.git
 
 Created by **Fatima Hijab**
 
-* Email: \[[your-email@example.com](fatimahijab769@gmail.com)]
-* LinkedIn: \[linkedin.com/in/your-linkedin]
+* Email: \[[fatimahijab759@gmail.com](fatimahijab769@gmail.com)]
+* LinkedIn: \[https://www.linkedin.com/feed/]
 
 ---
 
